@@ -2,26 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(styles/custom.css);
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --dark-blue:rgba(47, 64, 77, 1);
+    --teal: rgba(61, 137, 141, 1);
+    --aqua: rgba(133, 235, 217, 1);
+    --light-grayish:rgba(226, 221, 223, 1);
+    --medium-gray:rgba(160, 164, 162, 1);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+   --dark-blue:rgba(47, 64, 77, 1);
+   --teal: rgba(61, 137, 141, 1);
+   --aqua: rgba(133, 235, 217, 1);
+   --light-grayish:rgba(226, 221, 223, 1);
+   --medium-gray:rgba(160, 164, 162, 1);
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ background-color: white;
+ color: black;
 }
