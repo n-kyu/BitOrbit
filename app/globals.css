@@ -3,11 +3,15 @@
 @tailwind utilities;
 
 @import url(styles/custom.css);
+@import url(styles/buttons.css);
+@import url(styles/hero.css);
 
 :root {
     --dark-blue:rgba(47, 64, 77, 1);
     --teal: rgba(61, 137, 141, 1);
     --aqua: rgba(133, 235, 217, 1);
+    --aqua-20:rgba(133, 235, 217, 0.2);
+    --light-aqua: rgba(200, 222, 223);
     --light-grayish:rgba(226, 221, 223, 1);
     --medium-gray:rgba(160, 164, 162, 1);
 }
