@@ -1,0 +1,10 @@
+.hero-bg {
+    position: absolute;
+    top: 65px;
+    right: 0px;
+    bottom: 0px;
+    width: 1302px;
+    height: 679px;
+    background: url(../../public/background/bg-lg.svg) 0px 0px / 1502px 579px no-repeat;
+
+}
