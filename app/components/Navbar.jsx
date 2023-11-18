@@ -5,7 +5,7 @@ import saturn from "/public/saturn.svg";
 export default function Navbar() {
     return (
         <>
-            <div className="flex p-3 items-center justify-between fixed top-0 left-0 right-0 z-50 bg-white transition">
+            <div className="flex p-2 items-center justify-between fixed top-0 left-0 right-0 z-50 bg-white transition">
                 <div className="px-5">
                     <Link href="#" scroll={false}>
                         <Image
