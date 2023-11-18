@@ -1,3 +1,14 @@
+"use client";
+import { CountUp } from "use-count-up";
+export const CountedNumbers = () => {
+    const { value } = CountUp({
+        isCounting: true,
+        end: 1320,
+        duration: 3.2,
+    });
+    return value;
+};
+
 export default function MetricCards() {
     return (
         <>
@@ -6,7 +17,7 @@ export default function MetricCards() {
                     <div className="rounded-2xl border border-solid border-[--light-grayish]">
                         <div className="p-5 pb-0 flex flex-row items-center justify-between space-y-0">
                             <p className="tracking-tight text-[28px] font-bold">
-                                200+
+                                <CountUp isCounting end={200} duration={2.2} />+{" "}
                             </p>
                         </div>
                         <div className="p-5 pt-0">
@@ -18,7 +29,8 @@ export default function MetricCards() {
                     <div className="rounded-2xl border border-solid border-[--light-grayish]">
                         <div className="p-5 pb-0 flex flex-row items-center justify-between space-y-0">
                             <p className="tracking-tight text-[28px] font-bold">
-                                30 Million
+                                <CountUp isCounting end={30} duration={2.5} />{" "}
+                                Million
                             </p>
                         </div>
                         <div className="p-5 pt-0">
@@ -30,7 +42,7 @@ export default function MetricCards() {
                     <div className="rounded-2xl border border-solid border-[--light-grayish]">
                         <div className="p-5 pb-0 flex flex-row items-center justify-between space-y-0">
                             <p className="tracking-tight text-[28px] font-bold">
-                                700+
+                                <CountUp isCounting end={700} duration={2.2} />+{" "}
                             </p>
                         </div>
                         <div className="p-5 pt-0">
@@ -42,7 +54,13 @@ export default function MetricCards() {
                     <div className="rounded-2xl border border-solid border-[--light-grayish]">
                         <div className="p-5 pb-0 flex flex-row items-center justify-between space-y-0">
                             <p className="tracking-tight text-[28px] font-bold">
-                                $1.74 Billion
+                                $
+                                <CountUp
+                                    isCounting
+                                    end={2.19}
+                                    duration={2.2}
+                                />{" "}
+                                Billion
                             </p>
                         </div>
                         <div className="p-5 pt-0">
