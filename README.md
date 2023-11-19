@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BitOrbit - Cryptocurrency Exchange
 
-## Getting Started
+## Description
+BitOrbit is a cryptocurrency exchange that allows buying, selling, and trading Bitcoin, Ethereum, and over 700 altcoins.
 
-First, run the development server:
+## Project Pages
+1. **Home Page**: General presentation of the exchange.
+2. **Login / Register**: User authentication and account creation.
+3. **Dashboard**: Displays real-time cryptocurrency values, shows the user's balance on the exchange, and the value in each cryptocurrency they hold.
+4. **Stake Page**: Page for staking cryptocurrencies, allowing users to earn a percentage of the staked amount every **X** hours.
+5. **Transaction Page**: Enables users to trade OrbitCoin with other users.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
+- Next.js
+- CSS
+- Tailwind CSS
+- MongoDB
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Roadmap
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This roadmap outlines the planned stages for the continuous development of the BitOrbit project. Please be aware that the roadmap is subject to change as the project evolves.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Phase 1: Initial Development
+- [ ] Home page creation
+- [ ] Implement the user registration page.
+- [ ] Implement the user login page.
+- [ ] Add form validation to ensure correct data.
 
-## Learn More
+## Phase 2: Dashboard
+- [ ] Dashboard creation
+- [ ] Integrate with third-party APIs to obtain market data.
+- [ ] Add support for more cryptocurrencies.
 
-To learn more about Next.js, take a look at the following resources:
+## Phase 3: Additional Features
+- [ ] Stake page creation
+- [ ] create a staking method in OrbitCoin
+- [ ] Exchange page creation
+- [ ] Exchange method in OrbitCoin
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future
+- Continue gathering feedback from the community and making continuous improvements.
+- Explore opportunities for partnerships and additional integrations.
+- Implement advanced features such as automated trading.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This roadmap provides an overview of the planned stages for the development of the BitOrbit project. 
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Installation and Usage
+#### Soon...
